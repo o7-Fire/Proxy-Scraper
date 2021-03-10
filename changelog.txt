@@ -1,0 +1,35 @@
+23-03-2017
+[+] vProxy is now version 1.4
+[+] Licensing fully removed from the client
+[+] Removed the update check
+[+] Moved the settings and library database to the AppData folders
+[+] Changed the domain which grabs the IP address, fixes Transparent proxies
+[+] Changed the way the proxies that got scraped are counted, which makes it faster
+
+15-05-2016
+[+] vProxy is freeware now! (1.3b)
+[+] Licensing removed from the server side
+
+17-10-2015
+[+] vProxy is now version 1.3
+[+] Added an update check on startup
+[+] Added a Fast Import function for importing big lists
+[+] Changed some code to improve the stop function (It's still very slow tho)
+
+5-08-2015
+[+] Removed the stop "improvement", it happened to be the cause of the crashes
+[+] Moved the adding to library process from the scan loop to the end of the scan
+[+] Made some of the threads into background threads
+
+2-08-2015
+[+] Updated the HWID algorithm
+[+] Improved the stop function, now it aborts the open requests instead of waiting for them to close
+[+] Added an option to disable the listview updating during scanning and scraping
+[+] Added the HTTP_VIA header to the Anonymous check
+[+] Added a button to clear all scrape sources
+[+] Added a rightclick option to copy an IP from the library list
+[+] Added a rightclick option to remove a host from the scrape sources list
+[+] Added a rightclick option to open a scrape source URL in the default browser
+
+29-04-2015
+[+] Initial Release
